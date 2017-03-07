@@ -10,7 +10,7 @@ Everything you have port forwarded - Ports, IP's, Names.
 To use, add the dll or project to your own project, and then do this:
 ```
  var example = new libHitron.libHitron();
- Console.WriteLine(example.Connect("192.168.0.1", "cusadmin", "password")); //Default IP Address, Username, and Password.
+ example.Connect("192.168.0.1", "cusadmin", "password"); //Default IP Address, Username, and Password. Returns True if credentials are verified, False if it is unable to verify for any reason.
 ```
 You _MUST_ run Connect before attempting anything else, as it verifies and stores the credentials for all use afterwards.
 
