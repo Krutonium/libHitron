@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B01F1096-5CDD-427E-AA8E-D7A4AB67673D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDAB4C6A-4D38-46E2-96D0-D8D887B8F6B6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "libHitron", "src\libHitron\libHitron.xproj", "{F62C750B-83CB-4199-9C6D-8F2A781B2782}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "libHitronTests", "src\libHitronTests\libHitronTests.xproj", "{0485837E-982E-4B85-8C6A-02660E0529BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F62C750B-83CB-4199-9C6D-8F2A781B2782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62C750B-83CB-4199-9C6D-8F2A781B2782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62C750B-83CB-4199-9C6D-8F2A781B2782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62C750B-83CB-4199-9C6D-8F2A781B2782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0485837E-982E-4B85-8C6A-02660E0529BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0485837E-982E-4B85-8C6A-02660E0529BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0485837E-982E-4B85-8C6A-02660E0529BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0485837E-982E-4B85-8C6A-02660E0529BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F62C750B-83CB-4199-9C6D-8F2A781B2782} = {B01F1096-5CDD-427E-AA8E-D7A4AB67673D}
+		{0485837E-982E-4B85-8C6A-02660E0529BC} = {B01F1096-5CDD-427E-AA8E-D7A4AB67673D}
+	EndGlobalSection
+EndGlobal
