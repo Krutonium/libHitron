@@ -18,6 +18,7 @@ namespace libHitronTests
             Console.WriteLine("Getting First Item from list of Port Forwards...");
             var Temp2 = P.GetPortForwards();
             Console.WriteLine(Temp2[0].appName);
+            Console.WriteLine(Temp2[0].localIpAddr);
             Console.WriteLine("Name and Password of your main network...");
             var Temp3 = P.GetWirelessSettings();
             Console.WriteLine(Temp3[0].ssidName + " " + Temp3[0].passPhrase);

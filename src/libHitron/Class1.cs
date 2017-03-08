@@ -49,7 +49,6 @@ namespace libHitron
             return WirelessSettings.ToList();
         }
         #endregion
-
         #region Port Forwards
         public class PortForwards
         {

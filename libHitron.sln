@@ -1,18 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B01F1096-5CDD-427E-AA8E-D7A4AB67673D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDAB4C6A-4D38-46E2-96D0-D8D887B8F6B6}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "libHitron", "src\libHitron\libHitron.xproj", "{F62C750B-83CB-4199-9C6D-8F2A781B2782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libHitron", "src\libHitron\libHitron.csproj", "{F62C750B-83CB-4199-9C6D-8F2A781B2782}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "libHitronTests", "src\libHitronTests\libHitronTests.xproj", "{0485837E-982E-4B85-8C6A-02660E0529BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libHitronTests", "src\libHitronTests\libHitronTests.csproj", "{0485837E-982E-4B85-8C6A-02660E0529BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
