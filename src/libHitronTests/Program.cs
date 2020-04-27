@@ -17,12 +17,16 @@ namespace libHitronTests
             Console.WriteLine(Temp1.wanIp);
             Console.WriteLine("Getting First Item from list of Port Forwards...");
             var Temp2 = P.GetPortForwards();
-            Console.WriteLine(Temp2[0].appName);
-            Console.WriteLine(Temp2[0].localIpAddr);
+            Console.WriteLine(Temp2[0].appName + " " + Temp2[0].localIpAddr + ":" + Temp2[0].priStart +  " " + Temp2[0].protocal);
+            
             Console.WriteLine("Name and Password of your main network...");
             var Temp3 = P.GetWirelessSettings();
             Console.WriteLine(Temp3[0].ssidName + " " + Temp3[0].passPhrase);
+            Console.WriteLine(Temp3[1].ssidName + " " + Temp3[1].passPhrase);
             //Console.WriteLine(Temp3[0].hiddenWepAtkip);  //So if one wanted to, they could force the modem to broadcast and use WEP... Hooray? I don't know why this exists.
+            Console.WriteLine("DOCSIS Info");
+            var Temp4 = P.GetDocsisInfo();
+            Console.WriteLine("DHCP Status: " + Temp4.dhcp);
             Console.ReadKey();
         }
     }
