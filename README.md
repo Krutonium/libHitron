@@ -1,4 +1,7 @@
 # libHitron
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Krutonium/dotDesktop4dotNet) [![GitHub License](https://img.shields.io/github/license/Krutonium/dotDesktop4dotNet)](https://github.com/Krutonium/dotDesktop4dotNet/blob/master/LICENSE)
+
 A simple library to access and eventually change the settings on a Hitron CGN3 Modem
 
 In theory this should work in general for _most_ versions of the CGN3 Modem. As of time of writing, it is read only, but it can give you the following information:
